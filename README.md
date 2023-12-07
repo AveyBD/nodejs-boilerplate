@@ -1,5 +1,3 @@
----
-
 # Node.js Starter Boilerplate
 
 ## Overview
@@ -21,31 +19,31 @@ This node.js starter boilerplate designed for quickstart. It comes pre-configure
 
 1. Clone the repository:
 
-    ```bash
-    git clone <repository-url>
-    ```
+   ```bash
+   git clone git@github.com:AveyBD/nodejs-boilerplate.git
+   ```
 
 2. Install dependencies:
 
-    ```bash
-    yarn install
-    ```
+   ```bash
+   yarn install
+   ```
 
 3. Set up your environment variables:
 
-    Create a `.env` file in the root directory and define your variables.
+   Create a `.env` file in the root directory and define your variables.
 
-    ```env
-    PORT=3000
-    MONGODB_URI=mongodb://localhost:27017/uni-management
-    # Add other variables as needed
-    ```
+   ```env
+   PORT=3000
+   MONGODB_URI=mongodb://localhost:27017/uni-management
+   # Add other variables as needed
+   ```
 
 4. Run the development server:
 
-    ```bash
-    yarn start
-    ```
+   ```bash
+   yarn start
+   ```
 
 5. Open your browser and navigate to [http://localhost:3000](http://localhost:3000).
 
@@ -67,7 +65,3 @@ This project is licensed under the ISC License - see the [LICENSE](LICENSE) file
 ## Acknowledgments
 
 - Special thanks to the open-source community for providing the tools used in this boilerplate.
-
----
-
-Feel free to customize the README further based on your project's specific details and requirements.

@@ -1,8 +1,12 @@
 {
-  "name": "uni-management-auth",
+  "name": "nodejs-boilerplate",
   "version": "1.0.1",
-  "description": "University Management Auth",
+  "description": "Node.js Starter Boilerplate to start your nodejs package in a second.",
   "main": "src/server.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AveyBD/nodejs-boilerplate"
+  },
   "scripts": {
     "prepare": "husky install",
     "start": "ts-node-dev --respawn --transpile-only src/server.ts",
@@ -12,9 +16,9 @@
     "falcon": "yarn lint && yarn format"
   },
   "author": "Debashish D. Dev",
-  "license": "ISC",
-  "lint-staged":{
-    "**/*.{js,jsx,ts,tsx}":[
+  "license": "MIT",
+  "lint-staged": {
+    "**/*.{js,jsx,ts,tsx}": [
       "yarn prettier --write",
       "yarn eslint --fix"
     ]
